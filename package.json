@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node --inspect=5858 src/index.ts",
-    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "dev": "nodemon",
     "build": "tsc",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "test": "jest",

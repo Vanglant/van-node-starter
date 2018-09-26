@@ -1,5 +1,5 @@
 # van-node-starter
-Starter Typescript Node project, including reload on change using Nodemon/TS-Node, easy debug with VSCode and testing with Jest.
+Starter Typescript Node project, including reload on change using Nodemon/TS-Node, easy debug with VSCode and testing with Mocha and Chai.
 
 To start using it: 
 

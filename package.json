@@ -1,6 +1,6 @@
 {
-  "name": "example_auth",
-  "version": "1.0.0",
+  "name": "van-node-starter",
+  "version": "1.1.0",
   "description": "An example auth Nodejs App with React front.",
   "main": "index.js",
   "author": "Miguel Vílchez",
@@ -10,33 +10,25 @@
     "dev": "nodemon",
     "build": "tsc",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "nyc mocha",
+    "test:watch": "mocha --watch-extensions ts --watch"
   },
-  "jest": {
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json"
-    ]
-  },
-  "dependencies": {
-    "express": "^4.16.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/chai": "^4.1.5",
     "@types/jest": "^22.0.1",
+    "@types/mocha": "^5.2.5",
     "@types/node": "^9.3.0",
-    "jest": "^22.1.4",
+    "@types/sinon": "^5.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "nodemon": "^1.14.11",
-    "ts-jest": "^22.0.1",
+    "nyc": "^13.0.1",
+    "sinon": "^6.3.4",
+    "source-map-support": "^0.5.9",
     "ts-node": "^4.1.0",
-    "tslint-config-airbnb": "^5.4.2",
-    "tslint-config-prettier": "^1.6.0",
-    "typescript": "^2.6.2"
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.0.3"
   }
 }

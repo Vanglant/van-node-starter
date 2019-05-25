@@ -1,10 +1,8 @@
 # van-node-starter
-Starter Typescript Node project, including reload on change using Nodemon/TS-Node, easy debug with VSCode and testing with Mocha and Chai.
+Starter Typescript Node project.
 
-To start using it: 
+To start using it:
 
 `yarn or npm install`
 
-Then
-
-`yarn dev or npm run dev`
+Run tests using `npm run test`
